@@ -61,8 +61,10 @@ a {
 
 .hero-wrap {
     position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: #e6f0ff;
-    height: 93.2vh;
+    height: calc(100vh - 90px);
 }
 
 .navbar {
@@ -104,7 +106,7 @@ a {
 }
 
 .hero {
-    padding-top: 130px;
+    margin-top: 130px;
 }
 
 .hero .info {
